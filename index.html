@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cine Jaguar</title>
+<link rel="stylesheet" href="Jaguar.css">
+</head>
+
+<body>
+
+<!--Encabezado -->
+<div class="header">
+<img src="logo.png" alt="-">
+Cine Jaguar
+</div>
+
+<!-- Menú lateral -->
+<div class="menu">
+<ul>
+<li>Horarios</li>
+<li>Alimentos</li>
+<li>Próximamente</li>
+</ul>
+</div>
+
+<!-- Contenido principal -->
+<div class="main-content">
+
+<!--  Sala de cine (izquierda) -->
+  <div class="container">
+
+<!--  Tabla de funciones -->
+<table class="tabla-funciones">
+<caption>🎥 Funciones disponibles</caption>
+<thead>
+<tr>
+<th>Día</th>
+<th>Primera función</th>
+<th>Segunda función</th>
+<th>Tercera función</th></tr></thead>
+
+<tbody> <!-- Horarios tabla-->
+<tr>
+<td>Viernes</td>
+<td>12:00 PM</td><td>4:00 PM</td><td>8:30 PM</td></tr> <tr>
+<td>Sábado</td><td>1:00 PM</td><td>5:00 PM</td><td>9:00 PM</td></tr></tbody>
+</table>
+<div class="screen">Pantalla</div>
+
+ <div class="row"> <!-- Fila 1-->
+<label class="asiento"><input type="checkbox"><span>1A</span></label>
+<label class="asiento ocupado"><span>2A</span></label>
+<label class="asiento"><input type="checkbox"><span>4A</span></label>
+<label class="asiento"><input type="checkbox"><span>5A</span></label>
+<label class="asiento ocupado"><span>6A</span></label> </div>
+
+<div class="row"> <!-- fila 2-->
+<label class="asiento"><input type="checkbox"><span>1B</span></label>
+<label class="asiento"><input type="checkbox"><span>2B</span></label>
+<label class="asiento ocupado"><span>3B</span></label>
+<label class="asiento"><input type="checkbox"><span>4B</span></label>
+ <label class="asiento"><input type="checkbox"><span>6B</span></label>
+<label class="asiento"><input type="checkbox"><span>7B</span></label>
+</div>
+
+<div class="row"><!-- fila 3-->
+<label class="asiento"><input type="checkbox"><span>1C</span></label>
+<label class="asiento"><input type="checkbox"><span>2C</span></label>
+<label class="asiento"><input type="checkbox"><span>3C</span></label>
+<label class="asiento ocupado"><span>4C</span></label>
+<label class="asiento"><input type="checkbox"><span>5C</span></label>
+<label class="asiento"><input type="checkbox"><span>6C</span></label></div>
+
+<button class="button">Terminar selección</button> <!--boton de seleccion-->
+<p class="text">Selecciona tus asientos. Los grises no están disponibles.</p></div> <!-- texto-->
+
+<!--  Columna de imágenes (derecha) -->
+<div class="image-column">
+<a href="#popup-capibara"> <!-- link para mensaje al tocar-->
+<img src="Labubu vs capibara.jpg" alt="Capibara vs Labubus"> <!-- imagen--></a>
+<p>Capibara vs Labubus</p>
+
+<a href="https://www.youtube.com/watch?v=BARjPuUN36Y"> <!--link en imagen -->
+<img src="https://th.bing.com/th/id/R.4bde58fefa3a609e7d39cfedb47ddd43?rik=aCSs7AcIOhoXHA&pid=ImgRaw&r=0.jpg" alt="Spider Pork 2"> <p>Spider Pork </p></a>
+
+<a href="https://www.bing.com/videos/riverview/relatedvideo?q=super+can+pel%c3%adcula+completa+en+espa%c3%b1ol&&mid=83F3BF56C5895F70E9F583F3BF56C5895F70E9F5&mcid=1AE90152CD7A4E438E76932964063362&FORM=VAMGZC">
+<img src="https://tse3.mm.bing.net/th/id/OIP.8AUtsW09CuGxSwoOD0H4dQHaK7?cb=ucfimgc2&w=500&h=738&rs=1&pid=ImgDetMain&o=7&rm=3.jpg" alt="Super Kan">
+<p>Super Kan</p></div> </a>
+</div></div>
+
+
+<!-- Popup (mensaje ligado a imagen) -->
+<div id="popup-capibara" class="popup">
+<div class="popup-content"><a href="#" class="close">&times;</a> <!-- mensaje para cerras-->
+<h2>Capibara vs Labubus</h2> <!-- titulo pelicula-->
+<p>En un futuro  la raza de los Labubus,  una civilización avanzada y armoniosa, enfrenta la extinción. Su existencia está ligada intrínsecamente al "Elixir de Matcha latte", una sustancia mística que no solo es su alimento, sino fuente de energia en su sociedad. Pero el planeta natal de los Labubus, ha sido agotado de este recurso, transformándose en un desierto estéril.
+
+Sus sondas espaciales detectan la última y más pura veta de Matcha en un planeta distante y exuberante, rebosante de vida y belleza donde habitan los capibaras pero estos no permitirán la colonización de su planeta.</p> <!-- descripcion /sipnosis-->
+</div>
+</div>
+
+<!-- GIF al final -->
+<div class="gif-section"> <a href=" https://www.dailymotion.com/video/x8zikdk">
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHZobGwwM3l0MDF1MWVvOHczOWxsMGo5eWM4dm52eDM4MnJpeWRtYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vIHmUl2o9x5c2hvfbW/giphy.gif" alt="Cine GIF" width="200"></a></div>
+
+<!--Texto final al pie de página (visible solo al bajar) -->
+<footer class="footer">
+  <p>
+    © 2025 CineJAGUAR — Todos los derechos reservados. DCV. Introducción a la tecnología Digital 1
+  </p>
+</footer>
+</body>
+</html>
+
+
+
+</body>
+</html>
